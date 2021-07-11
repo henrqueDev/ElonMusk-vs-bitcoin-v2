@@ -2,14 +2,14 @@ const Twitter = require('twit');
 const fs = require('fs');
 const path = require('path');
 require('dotenv').config()
-//const fetch = require('node-fetch');
+
 const moeda = require('./api/fetchData.js');
 const {imagens_win, imagens_lose} = require('./api/imagens.js');
 const AVLTree = require('avl');
 const tree_win = new AVLTree();
 const tree_lose = new AVLTree();
 
-counter = 0
+counter = 0;
 for(image of imagens_win){
   tree_win.insert(counter,image);
   counter+=1;
