@@ -17,6 +17,6 @@
     "start": "node index.js"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "author": "Luís Henrique Ferreira Freire",
+  "license": "MPL"
 }
